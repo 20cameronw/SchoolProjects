@@ -1,0 +1,10 @@
+﻿  CSC525Project2.cpp
+C:\Users\camer\source\repos\CSC525Project2\CSC525Project2\CSC525Project2.cpp(111,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\camer\source\repos\CSC525Project2\CSC525Project2\CSC525Project2.cpp(117,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\camer\source\repos\CSC525Project2\CSC525Project2\CSC525Project2.cpp(122,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\camer\source\repos\CSC525Project2\CSC525Project2\CSC525Project2.cpp(127,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\camer\source\repos\CSC525Project2\CSC525Project2\CSC525Project2.cpp(132,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\camer\source\repos\CSC525Project2\CSC525Project2\CSC525Project2.cpp(137,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\camer\source\repos\CSC525Project2\CSC525Project2\CSC525Project2.cpp(142,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\camer\source\repos\CSC525Project2\CSC525Project2\CSC525Project2.cpp(147,20): warning C4018: '<': signed/unsigned mismatch
+  CSC525Project2.vcxproj -> C:\Users\camer\source\repos\CSC525Project2\Debug\CSC525Project2.exe

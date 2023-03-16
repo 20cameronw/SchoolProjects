@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1656639303 source:c:\users\camer\documents\csc232\labs\lab5\lab5\main.cpp
+	<iostream>
+	<string>
+	"Ship.cpp"
+	"CruiseShip.cpp"
+	"CargoShip.cpp"
+
+1656638494 c:\users\camer\documents\csc232\labs\lab5\lab5\ship.cpp
+	"Ship.h"
+
+1656637703 c:\users\camer\documents\csc232\labs\lab5\lab5\ship.h
+	<iostream>
+	<string>
+
+1656638698 c:\users\camer\documents\csc232\labs\lab5\lab5\cruiseship.cpp
+	"CruiseShip.h"
+
+1656637932 c:\users\camer\documents\csc232\labs\lab5\lab5\cruiseship.h
+	<iostream>
+	<string>
+	"Ship.h"
+
+1656639328 c:\users\camer\documents\csc232\labs\lab5\lab5\cargoship.cpp
+	"CargoShip.h"
+
+1656638219 c:\users\camer\documents\csc232\labs\lab5\lab5\cargoship.h
+	<iostream>
+	<string>
+	"Ship.h"
+

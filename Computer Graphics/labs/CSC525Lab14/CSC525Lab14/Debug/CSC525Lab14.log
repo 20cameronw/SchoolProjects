@@ -1,0 +1,3 @@
+﻿  CSC525Lab14.cpp
+C:\Users\camer\source\repos\CSC525Lab14\CSC525Lab14\CSC525Lab14.cpp(55,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  CSC525Lab14.vcxproj -> C:\Users\camer\source\repos\CSC525Lab14\Debug\CSC525Lab14.exe

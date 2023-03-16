@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1657943124 source:c:\users\camer\documents\csc232\homework\hw3\main.cpp
+	<iostream>
+	<cassert>
+

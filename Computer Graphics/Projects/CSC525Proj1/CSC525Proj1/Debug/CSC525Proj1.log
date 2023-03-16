@@ -1,0 +1,29 @@
+﻿  CSC525Proj1.cpp
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(7,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(7,27): error C2143: syntax error: missing ',' before '&'
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(9,5): error C2065: 'ofstream': undeclared identifier
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(9,14): error C2146: syntax error: missing ';' before identifier 'fs'
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(9,17): error C2065: 'filename': undeclared identifier
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(9,27): error C2653: 'fstream': is not a class or namespace name
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(9,36): error C2065: 'binary': undeclared identifier
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(9,14): error C3861: 'fs': identifier not found
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(12,16): error C2065: 'mat': undeclared identifier
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(13,9): error C2065: 'mat': undeclared identifier
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(15,9): error C2065: 'fs': undeclared identifier
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(15,18): error C2065: 'mat': undeclared identifier
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(15,26): error C2062: type 'char' unexpected
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(19,21): error C3861: 'CV_ELEM_SIZE': identifier not found
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(19,42): error C2065: 'mat': undeclared identifier
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(20,29): error C2065: 'mat': undeclared identifier
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(22,13): error C2065: 'fs': undeclared identifier
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(22,22): error C2065: 'mat': undeclared identifier
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(22,30): error C2062: type 'char' unexpected
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(32,9): error C2653: 'cv': is not a class or namespace name
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(32,13): error C2065: 'Mat': undeclared identifier
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(32,17): error C2146: syntax error: missing ';' before identifier 'Img'
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(32,17): error C2065: 'Img': undeclared identifier
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(32,23): error C2653: 'cv': is not a class or namespace name
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(32,27): error C3861: 'imread': identifier not found
+C:\Users\camer\source\repos\CSC525Proj1\CSC525Proj1\CSC525Proj1.cpp(34,34): error C2065: 'Img': undeclared identifier
+  Hut.cpp
+  Generating Code...

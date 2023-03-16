@@ -1,0 +1,5 @@
+﻿  CSC525PROJECT2.cpp
+CSC525PROJECT2.obj : error LNK2019: unresolved external symbol "public: void __thiscall glChar::setValues(char,float,float,float,void *)" (?setValues@glChar@@QAEXDMMMPAX@Z) referenced in function "void __cdecl letterInput(unsigned char,int,int)" (?letterInput@@YAXEHH@Z)
+CSC525PROJECT2.obj : error LNK2019: unresolved external symbol "public: void __thiscall glChar::display(void)" (?display@glChar@@QAEXXZ) referenced in function "void __cdecl drawEditor(void)" (?drawEditor@@YAXXZ)
+CSC525PROJECT2.obj : error LNK2019: unresolved external symbol "public: char __thiscall glChar::getChar(void)" (?getChar@glChar@@QAEDXZ) referenced in function "void __cdecl saveContent(void)" (?saveContent@@YAXXZ)
+C:\Users\camer\source\repos\CSC525Proj2\CSC525PROJECT2\Debug\CSC525PROJECT2.exe : fatal error LNK1120: 3 unresolved externals

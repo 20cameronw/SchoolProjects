@@ -1,0 +1,27 @@
+﻿  CSC525Lab4.cpp
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(158,14): error C3873: '0x201c': this character is not allowed as a first character of an identifier
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(158,14): error C2065: '“THE': undeclared identifier
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(158,21): error C2146: syntax error: missing ')' before identifier 'QUICK'
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(158,2): error C3861: 'printString': identifier not found
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(158,21): error C2146: syntax error: missing ';' before identifier 'QUICK'
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(158,21): error C2065: 'QUICK': undeclared identifier
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(158,27): error C2146: syntax error: missing ';' before identifier 'BROWN'
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(158,37): error C3872: '0x201d': this character is not allowed in an identifier
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(158,27): error C2065: 'BROWN': undeclared identifier
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(158,33): error C2146: syntax error: missing ';' before identifier 'FOX'
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(158,33): error C2065: 'FOX': undeclared identifier
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(158,37): error C2146: syntax error: missing ';' before identifier 'JUMPS”'
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(158,45): error C2059: syntax error: ')'
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(158,37): error C2065: 'JUMPS”': undeclared identifier
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(160,14): error C3873: '0x201c': this character is not allowed as a first character of an identifier
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(160,14): error C2065: '“OVER': undeclared identifier
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(160,22): error C2146: syntax error: missing ')' before identifier 'A'
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(160,2): error C3861: 'printString': identifier not found
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(160,22): error C2146: syntax error: missing ';' before identifier 'A'
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(160,29): error C3872: '0x201d': this character is not allowed in an identifier
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(160,22): error C2065: 'A': undeclared identifier
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(160,24): error C2146: syntax error: missing ';' before identifier 'LAZY'
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(160,24): error C2065: 'LAZY': undeclared identifier
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(160,29): error C2146: syntax error: missing ';' before identifier 'DOG”'
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(160,35): error C2059: syntax error: ')'
+C:\Users\camer\source\repos\CSC525Lab4\CSC525Lab4\CSC525Lab4.cpp(160,29): error C2065: 'DOG”': undeclared identifier

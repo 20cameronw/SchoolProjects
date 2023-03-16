@@ -1,0 +1,105 @@
+/**
+* Authors: Cameron Weston
+* Course: CSC 525 Lab 6 B
+* Last Modified Date: 10/1/2022
+* Description: File IO - Converts a text file to binary file
+* File: CSC525Lab6.cpp
+* IDE / Compiler : Microsoft Visual Studio 2019
+* INSTRUCTION FOR COMPILATION AND EXECUTION:
+*	1. Double click on CSC525Lab6.sln (the solution file in my VS project) to OPEN the project
+*	2. Press Ctrl+F7 to COMPILE
+*	3. Press Ctrl+F5 to EXECUTE
+*/
+
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <iomanip>
+
+
+using namespace std;
+
+int main()
+{
+	string folder = "C:\\Temp\\";
+	string fileName;
+	cout << "This program converts a text file to a binary file (.bin)\n";
+	cout << "Please enter a file name without the extension: ";
+	cin >> fileName;
+
+	string fullLocation = folder + fileName + ".txt";
+
+	//open the file
+	ifstream file;
+	file.open(fullLocation);
+
+	//check if file is open and end program if not
+	if (!file.is_open())
+	{
+		cout << "\nERROR: File failed to open at location " << fullLocation << endl;
+		return 1;
+	}
+
+	string line;
+	int numberOfNumbers;
+	getline(file, line);
+	numberOfNumbers = stoi(line);
+	cout << numberOfNumbers << endl;
+
+	int numberOfLines = numberOfNumbers / 10;
+	int numbersOnLastLine = numberOfNumbers % 10;
+
+	//initialize dynamic array of floats
+	float* numbersRead = new float[numberOfNumbers];
+	
+	int arrayIndex = 0;
+
+	file.read((char*)numbersRead, numberOfNumbers * sizeof(float));
+
+	//print out numbers
+	cout << endl << "Read numbers: " << endl;
+	cout << setprecision(2) << fixed;
+	for (int i = 0; i < numberOfNumbers; i++)
+	{
+		cout << numbersRead[i] << " ";
+	}
+	cout << endl;
+
+	/*	for (int i = 0; i < numberOfLines; i++)
+	{
+		getline(file, line);
+		cout << endl << line << endl;
+
+		for (int i = 0; i < 10; i++)
+		{
+			numbersRead[arrayIndex++] = line[i];
+			cout << endl << line[i];
+			//cout << arrayIndex - 1 << ", " << numbersRead[arrayIndex - 1];
+		}
+
+	}
+
+	//dont forget the last line which may not be full
+	if (numbersOnLastLine == 0)
+	{
+		//do nothing
+	}
+	else
+	{
+		getline(file, line);
+
+		for (int i = 0; i < numbersOnLastLine; i++)
+		{
+			numbersRead[arrayIndex] = line[i];
+			arrayIndex++;
+		}
+	}*/
+	//read each complete line
+
+
+	file.close();
+	delete[] numbersRead;
+
+	return 0;
+
+}
